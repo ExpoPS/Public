@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspOfferName": {
+            "value": "Exponential-e Managed Service - Support Requests"
+        },
+        "mspOfferDescription": {
+            "value": "Exponential-e Managed Service - Support Requests"
+        },
+        "managedByTenantId": {
+            "value": "e2e1e873-8934-46ae-829e-3401eac7289c"
+        },
+        "authorizations": {
+            "value": [
+                {
+                    "principalId": "b0a608ad-b684-4e40-a0ef-bfbf5da4eb2e",
+                    "principalIdDisplayName": "PAG-LH-SupportRequests",
+                    "roleDefinitionId": "cfd33db0-3dd1-45e3-aa9d-cdbdf3b6f24e"
+                }
+            ]
+        }
+    }
+}
